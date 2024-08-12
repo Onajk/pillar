@@ -1,8 +1,6 @@
 package com.evolutiongaming.pillar.config
 
-import com.datastax.oss.driver.api.core.ConsistencyLevel
-import com.datastax.oss.driver.api.core.auth.AuthProvider
-import com.datastax.oss.driver.internal.core.auth.PlainTextAuthProvider
+import com.datastax.driver.core.{AuthProvider, ConsistencyLevel, PlainTextAuthProvider}
 import com.typesafe.config.{Config, ConfigFactory, ConfigValueType}
 
 import scala.jdk.CollectionConverters._

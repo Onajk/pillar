@@ -2,7 +2,7 @@ package com.evolutiongaming.pillar
 
 import java.time.Instant
 
-import com.datastax.oss.driver.api.core.cql.ResultSet
+import com.datastax.driver.core.ResultSet
 
 object CassandraMigrator {
   val appliedMigrationsTableNameDefault = "applied_migrations"
